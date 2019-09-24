@@ -1,0 +1,11 @@
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/bin/Debug/netcoreapp2.2/discordvoicebot.deps.json
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/bin/Debug/netcoreapp2.2/discordvoicebot.runtimeconfig.json
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/bin/Debug/netcoreapp2.2/discordvoicebot.runtimeconfig.dev.json
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/bin/Debug/netcoreapp2.2/discordvoicebot.dll
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/bin/Debug/netcoreapp2.2/discordvoicebot.pdb
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/obj/Debug/netcoreapp2.2/discordvoicebot.csprojAssemblyReference.cache
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/obj/Debug/netcoreapp2.2/discordvoicebot.csproj.CoreCompileInputs.cache
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/obj/Debug/netcoreapp2.2/discordvoicebot.AssemblyInfoInputs.cache
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/obj/Debug/netcoreapp2.2/discordvoicebot.AssemblyInfo.cs
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/obj/Debug/netcoreapp2.2/discordvoicebot.dll
+/home/danni/Code/Quake Repos/endpoints/discordvoicebot/obj/Debug/netcoreapp2.2/discordvoicebot.pdb

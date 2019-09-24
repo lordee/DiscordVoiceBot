@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/danni/Code/Quake Repos/endpoints/discordvoicebot/discordvoicebot.csproj": {}
+  },
+  "projects": {
+    "/home/danni/Code/Quake Repos/endpoints/discordvoicebot/discordvoicebot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/danni/Code/Quake Repos/endpoints/discordvoicebot/discordvoicebot.csproj",
+        "projectName": "discordvoicebot",
+        "projectPath": "/home/danni/Code/Quake Repos/endpoints/discordvoicebot/discordvoicebot.csproj",
+        "packagesPath": "/home/danni/.nuget/packages/",
+        "outputPath": "/home/danni/Code/Quake Repos/endpoints/discordvoicebot/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/danni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
