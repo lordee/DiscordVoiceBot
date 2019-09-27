@@ -27,35 +27,6 @@ namespace discordvoicebot
         }
 
 /* 
-        private async Task MessageReceived(SocketMessage message)
-        {
-            switch(message.Content.ToLower())
-            {
-                case "!getvoiceusers":
-                    SocketTextChannel chan = (SocketTextChannel)message.Channel;
-                    foreach (SocketVoiceChannel svc in chan.Guild.VoiceChannels)
-                    {
-                        await message.Channel.SendMessageAsync(svc.Name);
-                        foreach(SocketGuildUser sgu in svc.Users)
-                        {
-                            string name = sgu.Nickname != null ? sgu.Nickname : sgu.Username;
-                            await message.Channel.SendMessageAsync(name);
-                        }
-                    }
-                    break;
-                case "!getservers":
-                    foreach (SocketGuild sg in _client.Guilds)
-                    {
-                        await message.Channel.SendMessageAsync(sg.Name);
-                    }
-                    break;
-                case "!recordvoice":
-                    
-                    break;
-                
-            }
-        }
-
         private Process CreateStream(string path)
         {
             return Process.Start(new ProcessStartInfo

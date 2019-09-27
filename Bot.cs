@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Discord;
 using Discord.WebSocket;
 using Discord.Commands;
+using Discord.Audio;
 
 using discordvoicebot.Handlers;
 using discordvoicebot.Logging;
@@ -23,15 +24,17 @@ namespace discordvoicebot
 
         public async Task Run() {
             var clientConfig = new DiscordSocketConfig {
-                MessageCacheSize = 1024
+                MessageCacheSize = 1024,
             };
             var client = new DiscordSocketClient(clientConfig);
+            
 
             using (var services =
                 new ServiceCollection()
                     .AddSingleton<DiscordSocketClient>(client)
                     .AddSingleton<CommandService>()
                     .AddSingleton<IDiscordCommandHandler, DiscordCommandHandler>()
+                    .AddSingleton<AudioService>()
                     .AddSingleton<ILogger, ConsoleLogger>()
                     .AddSingleton(_configuration)
                     .BuildServiceProvider()) {
