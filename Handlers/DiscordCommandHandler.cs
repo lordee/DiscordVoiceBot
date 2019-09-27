@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace discordvoicebot.Handlers
 {
-    public class DiscordCommandHandler : ICommandHandler
+    public class DiscordCommandHandler : IDiscordCommandHandler
     {
         private readonly DiscordSocketClient _client;
         private readonly IServiceProvider _services;

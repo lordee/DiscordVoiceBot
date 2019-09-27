@@ -31,12 +31,12 @@ namespace discordvoicebot
                 new ServiceCollection()
                     .AddSingleton<DiscordSocketClient>(client)
                     .AddSingleton<CommandService>()
-                    .AddSingleton<DiscordCommandHandler>()
+                    .AddSingleton<IDiscordCommandHandler, DiscordCommandHandler>()
                     .AddSingleton<ILogger, ConsoleLogger>()
                     .AddSingleton(_configuration)
                     .BuildServiceProvider()) {
 
-                await services.GetRequiredService<DiscordCommandHandler>().InitializeAsync();
+                await services.GetRequiredService<IDiscordCommandHandler>().InitializeAsync();
 
                 await client.LoginAsync(TokenType.Bot, _configuration["Tokens:voicebot"]);
                 await client.StartAsync();
